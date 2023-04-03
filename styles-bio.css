@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Bagian Body*/
+body, html{
+	background-image: linear-gradient(to right, #0ccbcf, #90a6a6);
+}
+
+/*Bagian List*/
+.list{
+	position: fixed;
+	right: 0px;
+	top: -10px;
+	position: fixed;
+	left: 0px;
+	height: 80px;
+	border-bottom: 3px solid none;
+	z-index: 9990px;
+	background-image: linear-gradient(to right, #29b8ba, purple);
+	z-index: 999;
+	animation: jud 1s forwards;
+	opacity: 0;
+}
+
+@keyframes jud{
+	to{
+		opacity: 3;
+	}
+}
+
+.list .tab h3{
+	color: whitesmoke;
+	font-family: verdana, geneva, tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.list ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	float: right;
+}
+
+.list a{
+	font-family: arial;
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+.list a:hover{
+	background-color: #bacecf;
+	color: black;
+	padding: 9px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 1px whitesmoke;
+}
+
+/*Bagian Judul*/
+.atas h1{
+	text-align: center;
+	font-weight: bold;
+	font-family: verdana, geneva, tahoma, sans-serif;
+	color: whitesmoke;
+	font-size: 60px;
+	text-shadow: 5px 7px 10px #212120;
+	animation: jud 1s forwards;
+	opacity: 0;
+}
+
+@keyframes jud{
+	to{
+		opacity: 3;
+	}
+}
+
+/*Bagian Foto*/
+.foto img{
+	margin-top: 130px;
+	margin-left: 150px;
+	width: 250px;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 9px 9px 1px #212120;
+	animation: foto 1s 1s  forwards;
+	opacity: 0;
+}
+
+@keyframes foto{
+	to{
+		opacity: 1;
+		margin-top: 80px;
+	}
+}
+
+/*Bagian Nama*/
+.nama{
+	font-family: verdana, geneva, tahoma, sans-serif;
+	color: #1e2121;
+	margin-top: -320px;
+	margin-left: 500px;
+}
+
+.nama h3{
+	font-size: 25px;
+	background-color: #85d5d6;
+	font-weight: bold;
+	width: 700px;
+	line-height: 50px;
+	padding: 1px;
+	border-radius: 20px;
+	box-shadow: 7px 7px 1px #212120;
+	letter-spacing: 2px;
+	text-indent: 1em;
+	animation: haidar 1500ms forwards;
+	opacity: 0;
+	margin-left: -50px;
+}
+
+@keyframes haidar{
+	to{
+		opacity: 1;
+		margin-left: 0px;
+	}
+} 
+
+
+.wall img{
+	opacity: 30%;
+	top: 20px;
+    height: 200%;
+    width: 99.9%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.return h2{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #19cbcf;
+	box-shadow: 2px 2px 1px 1px whitesmoke;
+	border-radius: 4px;
+	width: 100px;
+	height: 20px;
+	padding: 10px;
+	bottom: -575px;
+	margin-left: 100px;
+	animation: jud 1s forwards;
+	opacity: 0;
+}
+
+@keyframes jud{
+	to{
+		opacity: 3;
+	}
+}
+
+.return h2 a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.return h2 a:hover{
+	color: #303838;
+}
+
+.next h2{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #19cbcf;
+	box-shadow: 2px 2px 1px 1px whitesmoke;
+	border-radius: 4px;
+	width: 100px;
+	height: 20px;
+	padding: 10px;
+	bottom: -570px;
+	margin-left: 1070px;
+	animation: yy 1s forwards;
+	opacity: 0;
+}
+
+@keyframes yy{
+	to{
+		opacity: 3;
+	}
+}
+
+.next h2{
+	text-align: center;
+}
+
+.next h2 a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.next h2 a:hover{
+	color: #303838;
+}

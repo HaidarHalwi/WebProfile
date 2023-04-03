@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Utama*/
+body{
+	 background-image: linear-gradient(to right, #05e7eb, purple);
+}
+
+ .background img{	
+	opacity: 30%;
+
+}
+
+.list{
+	position: fixed;
+	right: 0px;
+	top: -10px;
+	position: fixed;
+	left: 0px;
+	height: 80px;
+	border-bottom: 3px solid none;
+	z-index: 9990px;
+	animation: jud 1s forwards;
+	opacity: 0;
+}
+
+@keyframes jud{
+	to{
+		opacity: 3;
+	}
+}
+
+.list .tab h3{
+	color: whitesmoke;
+	font-family: verdana, geneva, tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.list ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	float: right;
+}
+
+.list a{
+	font-family: arial;
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+.list a:hover{
+	background-color: #bacecf;
+	color: black;
+	padding: 9px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px 5px whitesmoke;
+}
+
+hr{
+	width:1280px;
+}
+
+.profile img{
+	position: relative;
+	height: 100vh;
+	width: 100vw; 
+	top: 0px;
+}
+
+.profile h1{
+	margin-top: 150px;
+	color: whitesmoke;
+	font-family: verdana, geneva, tahoma, sans-serif;
+	font-weight: bold;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+	font-size: 50px; 	
+	padding: 5px;
+	border-radius: 10px;
+	opacity: 90%;
+	width: 460px;
+	animation: jud 1s forwards;
+	opacity: 0;
+}
+
+@keyframes jud{
+	to{
+		opacity: 3;
+	}
+}
+
+
+.profile h3{
+	margin-top: 150px;
+	color: whitesmoke;
+	font-family: arial;
+	font-weight: bold;
+	margin-top: 10px ;
+	font-size: 20px;
+	animation: jud 1s forwards;
+	opacity: 0;
+}
+
+@keyframes jud{
+	to{
+		opacity: 3;
+	}
+}
+
+.profile h2{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 590px;
+	margin-top: -20px;
+	background-color: #19cbcf;
+	box-shadow: 2px 2px 1px 1px whitesmoke;
+	border-radius: 4px;
+	width: 90px;
+	height: 20px;
+	padding: 9px;
+	animation: jud 1s forwards;
+	opacity: 0;
+}
+
+@keyframes jud{
+	to{
+		opacity: 3;
+	}
+}
+
+.profile h2 a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.profile h2 a:hover{
+	color: #303838;
+}
+
+.up{
+	padding-top: 80px;
+}
+
+.icon img{
+	width: 30px;
+	height: 30px;
+	padding-right: 30px;
+
+}
+
+.icon{
+	display: flex;
+	justify-content: center;
+	z-index: 100;
+}
+
+.text{
+	font-family: Arial;
+	color: whitesmoke;
+	font-weight: bold;
+	margin-right: 30px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 15px;
+}
